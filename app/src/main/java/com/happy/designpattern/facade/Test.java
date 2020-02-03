@@ -7,6 +7,7 @@ public class Test {
      * @param args
      */
     public static void main(String[] args) {
-
+         GiftExchangeService giftExchangeService = new GiftExchangeService();
+         giftExchangeService.giftExchange(new PointsGift());
     }
 }
