@@ -9,9 +9,7 @@ public class GiftExchangeService {
     public void giftExchange(PointsGift pointsGift) {
         if (qualifyService.isAvailable(pointsGift)) {
             if (pointsPaymentService.pay(pointsGift)) {
-                if (shippingService.shipGift(pointsGift)) {
-
-                }
+                String number = shippingService.shipGift(pointsGift);
             }
         }
 

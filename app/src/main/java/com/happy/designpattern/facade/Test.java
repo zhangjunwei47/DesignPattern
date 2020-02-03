@@ -8,6 +8,6 @@ public class Test {
      */
     public static void main(String[] args) {
          GiftExchangeService giftExchangeService = new GiftExchangeService();
-         giftExchangeService.giftExchange(new PointsGift());
+         giftExchangeService.giftExchange(new PointsGift("哈哈"));
     }
 }
